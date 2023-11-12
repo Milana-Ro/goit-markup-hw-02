@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
 }
 .navigation {
@@ -20,19 +20,16 @@ body {
 .logo {
     text-decoration: none;
     text-transform: uppercase;
-    color: #2E2F42;
-        font-family: Raleway;
+    color: #4d5ae5;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.54px;
 }
-.logo-text-1 {
-    color: #4D5AE5;
-}
-.logo-text-2 {
-   color: #F4F4FD;
+header .logo-text {
+    color: #2E2F42;
 }
 
 .navigation .link:hover {
@@ -52,11 +49,12 @@ letter-spacing: 0.32px;
 .navigation .link:focus {
     color: #404BBF;
 }
-
+.contacts {
+font-style: normal;
+}
 .contacts .link {
     color: #434455;
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
@@ -77,26 +75,34 @@ letter-spacing: 0.32px;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
     
 .button {
     background-color: #4D5AE5;
     color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+
 }
 .button:hover {
     background-color: #404BBF;
-    color: #FFFFFF;
 }
-.list h3 {
+.button:focus {
+    background-color: #404BBF;
+}
+.list .list-title {
     color: #2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
 }
-.list p {
+.list .list-text {
     color: #434455;
 font-size: 16px;
 font-weight: 400;
@@ -112,11 +118,14 @@ background-color: #F4F4FD;
         text-align: center;
         font-size: 36px;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
-.list h3 {
+.team-member-1 {
+    background-color: #FFFFFF;
+}
+.team-member-1 .list-title {
     color: #2E2F42;
         text-align: center;
         font-size: 20px;
@@ -124,32 +133,98 @@ background-color: #F4F4FD;
         line-height: 24px;
         letter-spacing: 0.4px;
 }
-.list p {
+.team-member-1 .list-text {
     color: #434455;
         text-align: center;
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
 
+.team-member-2 {
+    background-color: #FFFFFF;
+}
+
+.team-member-2 .list-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.team-member-2 .list-text {
+    color: #434455;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.team-member-3 {
+    background-color: #FFFFFF;
+}
+
+.team-member-3 .list-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.team-member-3 .list-text {
+    color: #434455;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.team-member-4 {
+    background-color: #FFFFFF;
+}
+
+.team-member-4 .list-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.team-member-4 .list-text {
+    color: #434455;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
 .portfolio-list-title {
-color: #2E2F42);
+color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-.portfolio-list-title h3 {
+.portfolio-list ,.list-title {
     color: #2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
 }
-.portfolio-list-title p {
+.portfolio-list .list-text {
     color: #434455;
         font-size: 16px;
         font-weight: 400;
@@ -159,7 +234,13 @@ color: #2E2F42);
 
 .footer {
     background-color: #2E2F42;
+
 }
+
+footer .logo-text {
+    color: #F4F4FD;
+}
+
 .footer-text {
     color: #F4F4FD;
         font-size: 16px;
