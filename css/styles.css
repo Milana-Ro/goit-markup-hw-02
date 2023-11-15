@@ -95,14 +95,14 @@ font-style: normal;
 .button:focus {
     background-color: #404BBF;
 }
-.list .list-title {
+.about .list-title {
     color: #2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
 }
-.list .list-text {
+.about .list-text {
     color: #434455;
 font-size: 16px;
 font-weight: 400;
@@ -151,7 +151,7 @@ color: #2E2F42;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-.portfolio-list ,.list-title {
+.portfolio-list .list-title {
     color: #2E2F42;
         font-size: 20px;
         font-weight: 500;
